@@ -112,56 +112,6 @@ We can build the _entire_ "project" in a _**single file**_: `index.html`
 but for this example we are keeping everything in `index.html` for simplicity.
 If you make it to the "Bonus Levels" you will split things out!_
 
-Create a directory on your computer called **vending-machine**:
-
-In your **terminal** type this command:
-```sh
-mkdir vending-machine && cd vending-machine
-```
-(_this will create the directory and move you into it_)
-
-Next create a file called **index.html** e.g: `atom index.html` (which creates and opens the file in the [Atom text editor](https://atom.io/) if you have it installed)
-
-(_the "atom" command is not installed by default. In the Atom menu bar there is a command named “Install Shell Commands” which installs a new command in your Terminal called atom._)
-
-Now copy-paste the following *sample code* to get started:
-
-```html
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Vending Machine Change Calculator TDD Tutorial</title>
-    <!-- Load the QUnit CSS file from CDN - Require to display our tests attractively -->
-    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-1.18.0.css">
-    <!-- Pure CSS is a minimalist CSS file we have included to make things look nicer -->
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-  </head>
-  <body style='margin: 0 1em;'>
-    <div id='main'>
-      <h1>Vending Machine <em>Change Calculator</em></h1>
-      <h3>Calculate the change (<em>coins</em>) to return to a customer when they buy something.</h2>
-    </div>
-
-    <div id="qunit"></div>
-    <div id="qunit-fixture"></div>
-    <!-- Load the QUnit Testing Framework from CDN - this is the important bit ... -->
-    <script src="https://code.jquery.com/qunit/qunit-1.18.0.js"></script>
-    <script>
-      // This is what a simple unit test looks like:
-      test('This sample test should always pass!', function(assert) {
-        var result = 1 + 1;
-        assert.equal(result, 2); // just so we know everything loaded ok
-      });
-      // A failing test will be RED:
-      test('This is what a failing test looks like!', function(assert) {
-        var result = [1,2,3].indexOf(1);  // this should be 0
-        assert.equal(result, -1); // we *expect* this to fail
-      });
-    </script>
-  </body>
-</html>
-```
-
 #### Open index.html in your Browser
 
 When you ***open*** `index.html` in your ***web browser***
