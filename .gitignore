@@ -28,3 +28,4 @@ node_modules
 
 # exclude jsdoc output from Git see: https://github.com/docdis/learn-jsdoc
 out/
+.idea/
