@@ -35,7 +35,7 @@
   "devDependencies": {
     "istanbul": "^0.4.3",
     "jsdoc": "^3.4.0",
-    "live-server": "^1.1.0",
+    "live-server": "^1.2.1",
     "qunit-tap": "^1.5.0",
     "qunitjs": "^2.0.0-rc1"
   }
